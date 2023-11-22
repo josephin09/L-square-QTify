@@ -5,13 +5,14 @@ import Button from "../Button/Button";
 import styles from "./Navbar.module.css";
 
 function Navbar(){
+    const greenColor = "#34C94B";
     return(
         <nav className={styles.navbar}>
             <a href="/">
             <Logo/>
             </a>
             <Search placeholder="Search a album of your choice"/>
-            <Button>Give Feedback</Button>
+            <Button textColor={greenColor}>Give Feedback</Button>
         </nav>
     )
 }
