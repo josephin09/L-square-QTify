@@ -38,10 +38,12 @@ function Card({data, type}) {
                             <div className={styles.wrapper}>
                                 <div className={styles.card}>
                                     <img src={image} alt="song" loading="load"/>
+                                    <div className={styles.banner}>
                                     <div className={styles.pill}>
                                        <p>{likes} Likes</p>
                                     </div>
                                 </div>
+                            </div>
                                 <div className={styles.titleWrapper}>
                                     <p>{title}</p>
                                 </div>
